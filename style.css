@@ -1,0 +1,84 @@
+body {
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 100px;
+
+  
+}
+
+card {
+    background-color: red;
+    width: 20sayLove0px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px black;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: black;
+}
+
+button {
+    background-color:pink;
+    color: black;
+    border: black;
+    padding: 11px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+  
+}
+
+button:hover {
+    background-color:white;
+  transform: scale(0.9) ;
+}
+
+#trollButton {
+    position: absolute;
+    left: 200px;
+    top: 300px;
+
+}
+
+ #Yesbutton {
+   position: absolute;
+   left: 90px;
+   top: 300px;
+   
+ }
+
+#emoji {
+  position: absolute;
+  left: 280px;
+  top: 20px;
+  font-size: 50px;
+}
+
+#emojitwo {
+  position: absolute;
+  left: 20pxpx;
+  top: 210px;
+  font-size: 50px;
+}
+
+body::before {
+    content: "💖";
+    font-size: 50px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+body::after {
+    content: "💖";
+    font-size: 50px;
+    position: absolute;
+    top: 245px;
+    left: 280px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+  <title>padabataka</title>
+
+</head>
+<body>
+  <h1>Hi crush</h1>
+  <h1>Mahal mo ba ako?</h1>
+  <p>😁</p>
+
+  <h1 id="emoji">🫶🏻</h1>
+  <h1 id="emojitwo">🫶🏻</h1>
+
+  <button id="Yesbutton" accesskey
+    onclick="sayLove()">Yes</button>
+
+<script>
+function sayLove() {
+    alert("I love you too! 😊");
+}
+</script>
+
+  <button id="trollButton">No</button>
+
+    <script>
+        const button = document.getElementById("trollButton");
+
+        button.addEventListener("click", function() {
+
+            const maxX = window.innerWidth - button.offsetWidth;
+            const maxY = window.innerHeight - button.offsetHeight;
+
+            const x = Math.random() * maxX;
+            const y = Math.random() * maxY;
+
+            button.style.left = x + "px";
+            button.style.top = y + "px";
+        });
+    </script>
+ 
+  <script src="script.js></script>
+
+</body>
+</html>
