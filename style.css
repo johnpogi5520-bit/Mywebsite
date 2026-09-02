@@ -42,6 +42,54 @@ button:hover {
 
 #trollButton {
     position: absolute;
+    left: 377px;
+    top: 209px;
+
+}
+
+ #Yesbutton {
+   position: absolute;
+   left: 171px;
+   top: 209px;
+   
+ }
+
+#emoji {
+  position: absolute;
+  left: 198px;
+  top: 42px;
+  font-size: 50px;
+}
+
+#emojitwo {
+  position: absolute;
+  left: 8pxpx;
+  top: 176px;
+  font-size: 50px;
+}
+
+body::before {
+    content: "💖";
+    font-size: 50px;
+    position: absolute;
+    top: 42px;
+    left: 8px;
+}
+
+body::after {
+    content: "💖";
+    font-size: 50px;
+    position: absolute;
+    top: 176px;
+    left: 198px;
+}
+button:hover {
+    background-color:white;
+  transform: scale(0.9) ;
+}
+
+#trollButton {
+    position: absolute;
     left: 110%;
     top: 300px;
 
