@@ -42,14 +42,14 @@ button:hover {
 
 #trollButton {
     position: absolute;
-    left: 100px;
+    left: 55%;
     top: 209px;
 
 }
 
  #Yesbutton {
    position: absolute;
-   left: 50px;
+   left: 25%;
    top: 209px;
    
  }
