@@ -3,17 +3,18 @@ body {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding-top: 100px;
+    
 
   
 }
 
-card {
+.card {
     background-color: red;
-    width: 20sayLove0px;
+    width: 80%;
+    max-width: 600px;
     margin: auto;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 5px 15px black;
 }
 
 h1 {
@@ -27,7 +28,7 @@ p {
 button {
     background-color:pink;
     color: black;
-    border: black;
+    border: none;
     padding: 11px 25px;
     border-radius: 8px;
     cursor: pointer;
@@ -41,14 +42,14 @@ button:hover {
 
 #trollButton {
     position: absolute;
-    left: 200px;
+    left: 55%;
     top: 300px;
 
 }
 
  #Yesbutton {
    position: absolute;
-   left: 90px;
+   left: 25%;
    top: 300px;
    
  }
