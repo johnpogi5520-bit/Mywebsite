@@ -10,8 +10,8 @@ body {
 
 .card {
     background-color: red;
-    width: 80%;
-    max-width: 600px;
+    width: 40%;
+    max-width: 300px;
     margin: auto;
     padding: 30px;
     border-radius: 15px;
