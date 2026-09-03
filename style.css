@@ -3,22 +3,21 @@ body {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding-top: 100px;
-    
 
   
 }
 
 .card {
     background-color: red;
-    width: 40%;
-    max-width: 300px;
+    width: 20px;
     margin: auto;
     padding: 30px;
     border-radius: 15px;
+    box-shadow: 0 5px 15px black;
 }
 
 h1 {
-    color: blue;
+    color: pink;
 }
 
 p {
@@ -26,9 +25,9 @@ p {
 }
 
 button {
-    background-color: white;
+    background-color:white;
     color: black;
-    border: none;
+    border: black;
     padding: 11px 25px;
     border-radius: 8px;
     cursor: pointer;
@@ -42,15 +41,15 @@ button:hover {
 
 #trollButton {
     position: absolute;
-    left: 10px;
-    top: 209px;
+    left: 200px;
+    top: 300px;
 
 }
 
  #Yesbutton {
    position: absolute;
-   left: 20px;
-   top: 209px;
+   left: 90px;
+   top: 300px;
    
  }
 
@@ -72,110 +71,14 @@ body::before {
     content: "💖";
     font-size: 50px;
     position: absolute;
-    top: 42px;
-    left: 8px;
+    top: 90%;
+    left: 30%;
 }
 
 body::after {
     content: "💖";
     font-size: 50px;
     position: absolute;
-    top: 176px;
-    left: 198px;
-}
-button:hover {
-    background-color:white;
-  transform: scale(0.9) ;
-}
-
-#trollButton {
-    position: absolute;
-    left: 377px;
-    top: 209px;
-
-}
-
- #Yesbutton {
-   position: absolute;
-   left: 171px;
-   top: 209px;
-   
- }
-
-#emoji {
-  position: absolute;
-  left: 198px;
-  top: 42px;
-  font-size: 50px;
-}
-
-#emojitwo {
-  position: absolute;
-  left: 8pxpx;
-  top: 176px;
-  font-size: 50px;
-}
-
-body::before {
-    content: "💖";
-    font-size: 50px;
-    position: absolute;
-    top: 42px;
-    left: 8px;
-}
-
-body::after {
-    content: "💖";
-    font-size: 50px;
-    position: absolute;
-    top: 176px;
-    left: 198px;
-}
-button:hover {
-    background-color:white;
-  transform: scale(0.9) ;
-}
-
-#trollButton {
-    position: absolute;
-    left: 110%;
-    top: 300px;
-
-}
-
- #Yesbutton {
-   position: absolute;
-   left: 55%;
-   top: 300px;
-   
- }
-
-#emoji {
-  position: absolute;
-  left: 280px;
-  top: 20px;
-  font-size: 50px;
-}
-
-#emojitwo {
-  position: absolute;
-  left: 20pxpx;
-  top: 210px;
-  font-size: 50px;
-}
-
-body::before {
-    content: "💖";
-    font-size: 50px;
-    position: absolute;
-    top: 50px;
-    left: 20px;
-}
-
-body::after {
-    content: "💖";
-    font-size: 50px;
-    position: absolute;
-    top: 245px;
-    left: 280px;
+    top: 70%;
+    left: 80%;
 }
