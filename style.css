@@ -63,7 +63,7 @@ button:hover {
 #emojitwo {
   position: absolute;
   left: 20%;
-  top: 3%;
+  top: 1%;
   font-size: 50px;
 }
 
@@ -79,6 +79,6 @@ body::after {
     content: "💖";
     font-size: 50px;
     position: absolute;
-    top: 3%;
+    top: 1%;
     left: 70%;
 }
