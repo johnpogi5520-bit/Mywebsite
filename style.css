@@ -1,8 +1,8 @@
 body {
     background-color: red;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    padding-top: 100px;
+    left: 50%;
+    top: 80%;
     
 
   
@@ -63,7 +63,7 @@ button:hover {
 
 #emojitwo {
   position: absolute;
-  left: 80%;
+  left: 50%;
   top: 70%;
   font-size: 50px;
 }
