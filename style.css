@@ -55,15 +55,15 @@ button:hover {
 
 #emoji {
   position: absolute;
-  left: 80%;
-  top: 90%;
+  left: 70%;
+  top: 40%;
   font-size: 50px;
 }
 
 #emojitwo {
   position: absolute;
-  left: 30%;
-  top: 70%;
+  left: 20%;
+  top: 20%;
   font-size: 50px;
 }
 
@@ -71,14 +71,14 @@ body::before {
     content: "💖";
     font-size: 50px;
     position: absolute;
-    top: 90%;
-    left: 30%;
+    top: 40%;
+    left: 20%;
 }
 
 body::after {
     content: "💖";
     font-size: 50px;
     position: absolute;
-    top: 70%;
-    left: 80%;
+    top: 20%;
+    left: 70%;
 }
