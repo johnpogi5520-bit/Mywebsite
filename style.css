@@ -2,7 +2,8 @@ body {
     background-color: red;
     font-family: 'Times New Roman', Times, serif;
     left: 50%;
-    top: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     
 
   
