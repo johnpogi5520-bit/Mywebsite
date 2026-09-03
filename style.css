@@ -59,6 +59,7 @@ button:hover {
   left: 198px;
   top: 42px;
   font-size: 50px;
+    transform: translate(-50%, -50%);
 }
 
 #emojitwo {
@@ -66,6 +67,7 @@ button:hover {
   left: 80%;
   top: 70%;
   font-size: 50px;
+    transform: translate(-50%, -50%);
 }
 
 body::before {
