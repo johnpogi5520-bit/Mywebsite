@@ -6,3 +6,5 @@ button.addEventListener("mouseover", function() {
 
     button.style.left = x + "px";
     button.style.top = y + "px";
+
+});
