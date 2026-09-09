@@ -7,15 +7,6 @@ body {
   
 }
 
-.card {
-    background-color: red;
-    width: 20px;
-    margin: auto;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px black;
-}
-
 h1 {
     color: black;
 }
